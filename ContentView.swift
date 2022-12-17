@@ -201,7 +201,7 @@ struct ContentView: View {
                 
                 Text("Overall 4.6/5")
                     .padding(.bottom, 2.5)
-                    .foregroundColor(.yellow)
+                    .foregroundColor(.green)
                     .bold()
                 
                 Text("Community: NA/5")
@@ -214,6 +214,48 @@ struct ContentView: View {
                     .padding(.bottom, 2.5)
                 
                 Text("Features: 4.5/5")
+                    .padding(.bottom, 50)
+                
+                
+            }
+            
+            
+            VStack {
+                
+                
+                Image("Reddit")
+                    .resizable()
+                    .frame(width: 150, height: 150)
+                    .cornerRadius(12.5)
+                    .padding()
+                
+                
+                Text("Reddit")
+                    .font(.title2)
+                    .bold()
+                    .padding(.bottom, 2.5)
+                
+                
+                Text("Rating:")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    .padding(.bottom, 6)
+                
+                Text("Overall 4.7/5")
+                    .padding(.bottom, 2.5)
+                    .foregroundColor(.green)
+                    .bold()
+                
+                Text("Community: 4.92/5")
+                    .padding(.bottom, 2.5)
+                
+                Text("App: 4.8/5")
+                    .padding(.bottom, 2.5)
+                
+                Text("Quality: 3.9/5")
+                    .padding(.bottom, 2.5)
+                
+                Text("Features: 5/5")
                     .padding(.bottom, 50)
                 
                 
